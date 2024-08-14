@@ -1,46 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Project</title>
-    <!-- Bootstrap CSS -->
+    <title>Bootstrap4 Assignment</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href=" ">Bootstrap Project</a >
+        <a class="navbar-brand" href="#">My Website</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a >
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Showtimes</a >
+                    <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Deals</a >
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </nav>
 
-    <!-- Showtime Section -->
-    <div class="container mt-4">
-        <h2>Showtimes:</h2>
+    
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Website</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    
+    <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
-                    < img src="https://via.placeholder.com/150" class="card-img-top" alt="Kong Skull Island">
-                    <div class="card-body">
-                        <h5 class="card-title">Kong Skull Island</h5>
-                        <p class="card-text">A team of scientists explore an uncharted island 
+                <h2>Column 1</h2>
+                <p>This is some content for the first column. Bootstrap allows for easy column layouts.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Column 2</h2>
+                <p>This is some content for the second column. You can adjust the column sizes as needed.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Column 3</h2>
+                <p>This is some content for the third column. Each column in this row is of equal width.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="bg-light text-center">
+        <p>&copy; 2024 My Website | All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
